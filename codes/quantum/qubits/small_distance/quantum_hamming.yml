@@ -17,7 +17,7 @@ alternative_names:
 description: |
   A family of non-CSS stabilizer codes of distance \(3\) that saturate the asymptotic quantum Hamming bound.
 
-  The family can be obtained from a modified CSS construction \cite{arxiv:quant-ph/9605021} with a \([2^r,r+1,2^{r-1}] = C_2^{\perp}\) RM code and a \([2^r,2^r-1,2] = C_1\) even-weight code \cite{arxiv:quant-ph/9605021}.
+  For \(r\ge 3\), the family can be obtained from a modified CSS construction \cite{arxiv:quant-ph/9605021} with a \([2^r,r+1,2^{r-1}] = C_2^{\perp}\) RM code and a \([2^r,2^r-1,2] = C_1\) even-weight code \cite{arxiv:quant-ph/9605021}.
   The modification introduces signs between the codewords.
 
 
@@ -42,6 +42,8 @@ relations:
 _meta:
   # Change log - most recent first
   changelog:
+    - user_id: ChrisPattison
+      date: '2024-03-30'
     - user_id: VictorVAlbert
       date: '2022-12-04'
     - user_id: VictorVAlbert
